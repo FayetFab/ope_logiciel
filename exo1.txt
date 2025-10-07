@@ -1,0 +1,24 @@
+Exo 1 :
+- git log 
+Patrick Baumgartner & dejan2609
+
+- git branch -r | wc -l
+9 branches
+
+- git shortlog -s -n 
+   210  Mic
+   156  Dave Syer
+   142  Antoine Rey
+
+- git tag | wc -l 
+git tag
+1 seul : 1.5.x
+
+- ls .github/workflows
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07/10/2025     08:47            704 deploy-and-test-cluster.yml
+-a----        07/10/2025     08:47            869 gradle-build.yml
+-a----        07/10/2025     08:47            800 maven-build.yml
+
+oui à CI
