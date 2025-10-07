@@ -3,7 +3,5 @@ resource "aws_s3_bucket" "dynamic_bucket" {
 }
 
 provider "aws" {
-    region = "uw-east-1"
-    access_key = "ASIA2AS5AYG75ANILVWZ"
-    secret_key = "rdEB2dCD9iIN62Rm4QJZUuZ00QokKj4/otCxYXfi"
+    region = "us-east-1"
 }
